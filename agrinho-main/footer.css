@@ -1,0 +1,19 @@
+.rodape{
+    background-color: var(--verde);
+}
+
+hr{
+    background-color: var(--verde);
+
+}
+
+.rodape__lista{
+    display: flex;
+    font-size: 12px;
+    justify-content:space-around;
+}
+
+.rodape__lista__item__link{
+    color: var(--preto);
+    text-decoration: none;
+}

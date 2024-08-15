@@ -1,0 +1,54 @@
+.barradepesquisa{
+    text-align: center;
+    background-color: var(--cinza);
+    border-radius: 15px;
+    margin: 1em;
+}
+.barradepesquisa__título__mobile{
+    padding: 0.5em;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.barradepesquisa__caixa{
+    width: 225px;
+    height: 10px;
+    background-color: transparent;
+    border: 1.5px solid var(--preto);
+    color: var(--preto);
+    border-radius: 22px;
+    padding: 1em;
+    margin: 1em;
+    outline-color: var(--verde);
+}
+
+.barradepesquisa__caixa::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 11px;
+    font-weight: 500;
+    padding-left: 2.5em;
+    color: var(--preto);
+    background: url("lupa.png") no-repeat;
+    background-position: 0em;
+    background-size: 12px 12px;
+    background-position-x: 0.5em;
+}
+
+.barradepesquisa__título__responsivo{
+   display: none;
+}
+
+@media screen and (min-width: 1024px) /*código otimizado para telas de tablet e acima*/
+{
+    .barradepesquisa__título__mobile , .barradepesquisa__caixa{
+        display: none;
+    }
+
+    .barradepesquisa__título__responsivo{
+        padding: 0.5em;
+        font-weight: 700;
+        font-size: 22px;
+        display: block;
+    }
+    
+}

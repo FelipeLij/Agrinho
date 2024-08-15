@@ -1,0 +1,51 @@
+
+.corpodosite__manchete{
+    text-align: center;
+    margin: 2em;
+}
+
+.corpodosite__manchete__titulo{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.corpodosite__manchete__subtitulo{
+    font-size: 20px;
+    margin: 0.5em;
+    font-weight: 500;
+}
+
+p{
+    text-indent: 1.5em;
+    margin: 1em;
+}
+
+.corpodosite__imagem{
+    max-width: 60%;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 900px) /*código otimizado para as imagens ficarem esteticamente bem reguladas*/
+{
+    .corpodosite__imagem{
+        max-width: 35%;
+    }
+
+    .corpodosite__fotodupla__foto{
+        width: 25%;
+    }
+}
+
+.corpodosite__fotodupla{
+    display: inline-flex;
+    justify-content: space-around;
+}
+    
+
+.corpodosite__fotodupla__foto{
+    max-width: 30%;
+    border-radius: 10px;
+}
+
